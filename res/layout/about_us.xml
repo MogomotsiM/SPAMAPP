@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+        <ScrollView
+            android:id="@+id/AUSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="verdana"
+                android:textSize="5sp"
+                android:text="We started out in Braamfontein, Johannesburg, by offering apartment and dormitory-style rentals in a number of desirable buildings within walking distance of the University of Witwatersrand and other educational institutions close to Braamies, like Rosebank College, Damelin, Afda, and the Fashion School. Currently our Braamfontein portfolio provides accommodation to thousands of students and not only that but we have grown some, too, now offering first-class student accommodation in Jozi, Pretoria, PE, Cape Town and Durbs. In Jozi and Pretoria we also offer flats to let.
+South Point has forged strong ties with institutions and people that help make a difference to your lifestyle; from numerous tertiary institutions and bursars to stakeholders, municipalities and local governments. This way we get to provide you with well-managed, convenient, comfortable, clean, safe, secure and affordable student accommodation and flats to let.
+One of South Point’s biggest commitments is to create a sense of community among our students. It is our priority to actively develop and maintain relationships with our students during their stay in our student accommodation. We do this by sponsoring South Point sports teams; hosting parties; offering accommodation bursaries to existing South Point students; and inviting motivational guest speakers to talk about topics that interest our students.
+It doesn’t end there as we also provide funding and administrative support to South Point student initiatives. We encourage extra-curricular activities that are constructive, safe and inclusive in nature and have hosted chess clubs, debating societies, prayer groups and art societies in our buildings as part of student driven initiatives.
+To keep you in the loop we have created the South Point Newsletter, an events’ gig guide called What’s Shaking and Phashasha Life, featuring fun lifestyle tidbits from hot products to relevant advice. 
+
+Finally, to promote healthy learning we offer various student internship programmes to students needing to fulfill the practical portion of their academic programme."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+        </ScrollView>
+    
+</RelativeLayout>
