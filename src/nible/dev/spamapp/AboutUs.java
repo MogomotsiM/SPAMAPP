@@ -7,9 +7,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageSwitcher;
 
 public class AboutUs extends Fragment {
 
+	private ImageSwitcher imageSwitcher;
+	 public AboutUs()
+	 {
+		  imageSwitcher = (ImageSwitcher)
+	 }
 	 @Override
 	    public void onAttach(Activity activity) {
 	        super.onAttach(activity);
@@ -100,4 +106,7 @@ public class AboutUs extends Fragment {
 	        Log.d("VIVZ","onDetach");
 
 	    }
+	    
+	  
+	    
 }

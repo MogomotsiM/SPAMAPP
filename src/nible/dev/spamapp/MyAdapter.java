@@ -23,6 +23,10 @@ public class MyAdapter extends FragmentStatePagerAdapter {
       {
           fragment=new Maps();
       }
+      if(i==3)
+      {
+          fragment=new Gallery();
+      }
       return fragment;
 	}
 
@@ -44,6 +48,10 @@ public class MyAdapter extends FragmentStatePagerAdapter {
         if(position==2)
         {
             return "Maps";
+        }
+        if(position==3)
+        {
+            return "Gallery";
         }
         return null;
     }

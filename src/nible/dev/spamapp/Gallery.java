@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Maps extends Fragment {
+public class Gallery extends Fragment {
 
 	 @Override
 	    public void onAttach(Activity activity) {
@@ -35,7 +35,7 @@ public class Maps extends Fragment {
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 	        super.onCreateView(inflater,container,savedInstanceState);
 	        Log.d("VIVZ","onCreateView");
-	        return inflater.inflate(R.layout.maps, container, false);
+	        return inflater.inflate(R.layout.gallery, container, false);
 	    }
 
 	    @Override
