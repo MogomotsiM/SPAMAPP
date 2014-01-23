@@ -14,7 +14,7 @@ public class AboutUs extends Fragment {
 	private ImageSwitcher imageSwitcher;
 	 public AboutUs()
 	 {
-		  imageSwitcher = (ImageSwitcher)
+		 
 	 }
 	 @Override
 	    public void onAttach(Activity activity) {

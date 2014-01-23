@@ -35,7 +35,7 @@ public class Gallery extends Fragment {
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 	        super.onCreateView(inflater,container,savedInstanceState);
 	        Log.d("VIVZ","onCreateView");
-	        return inflater.inflate(R.layout.gallery, container, false);
+	        return inflater.inflate(R.layout.my_gallery, container, false);
 	    }
 
 	    @Override

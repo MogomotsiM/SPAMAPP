@@ -1,6 +1,5 @@
 package nible.dev.spamapp;
 
-import android.R;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -15,10 +14,10 @@ import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ViewSwitcher.ViewFactory;
- 
+
 public class ImageSwitcherView extends Activity implements ViewFactory {
  
-    Integer pics[] = { R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d,
+    Integer pics[] = { R.drawable.a,R.drawable.b, R.drawable.c, R.drawable.d,
             R.drawable.e };
  
     ImageSwitcher iSwitcher;
@@ -27,7 +26,7 @@ public class ImageSwitcherView extends Activity implements ViewFactory {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.my_gallery);
  
         iSwitcher = (ImageSwitcher) findViewById(R.id.ImageSwitcher01);
         iSwitcher.setFactory(this);
